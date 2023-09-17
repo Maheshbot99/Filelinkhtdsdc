@@ -61,7 +61,7 @@ async def start(b, m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
-                    [InlineKeyboardButton("〄 Hᴇʟᴘ", callback_data="help"), InlineKeyboardButton("⍟ Aʙᴏᴜᴛ", callback_data="about")],
+                    [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')],
                     [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")]
                 ]
             ),
@@ -179,7 +179,7 @@ async def help_handler(bot, message):
             [
                 [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")],
                 [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
-                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data="start"), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data="close")]
+                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data='start'), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data='close')]
             ]
         )
     )
@@ -242,7 +242,7 @@ async def about_handler(bot, message):
             [
                 [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")],
                 [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
-                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data="start"), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data="close")]
+                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data='start'), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data='close')]
             ]
         )
     )
