@@ -60,8 +60,9 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")],
-                    [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")]
+                    [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
+                    [InlineKeyboardButton("〄 Hᴇʟᴘ", callback_data="help"), InlineKeyboardButton("⍟ Aʙᴏᴜᴛ", callback_data="about")],
+                    [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")]
                 ]
             ),
             
@@ -177,7 +178,8 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")],
-                [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")]
+                [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
+                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data="start"), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data="close")]
             ]
         )
     )
@@ -239,7 +241,8 @@ async def about_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")],
-                [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")]
+                [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
+                [InlineKeyboardButton("♙ ʜᴏᴍᴇ", callback_data="start"), InlineKeyboardButton("ᴄʟᴏsᴇ ↻", callback_data="close")]
             ]
         )
     )
