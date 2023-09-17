@@ -2,7 +2,7 @@
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from pyrogram import Client , filters
 
-@Client.on_callback_query(filters.regex('zdogrocky'))
+@Client.on_callback_query(filters.regex('plclvs2'))
 async def upgrade(bot,update):
 	text = """<b>┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...
 
@@ -22,7 +22,7 @@ async def upgrade(bot,update):
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
-@Client.on_message(filters.private & filters.command(["zdogrocky"]))
+@Client.on_message(filters.private & filters.command(["plclvs2"]))
 async def upgradecm(bot,message):
 	text = """<b>┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...
 
