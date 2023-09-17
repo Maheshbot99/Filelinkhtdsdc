@@ -61,7 +61,7 @@ async def start(b, m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://t.me/NewCinemaStore")],
-                    [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='plclvs2'), InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')],
+                    [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='plclvs2'), InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='mahivz5')],
                     [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/CrazyXBoTs"), InlineKeyboardButton("💠 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ 💠", url="https://t.me/CrazyXBoTsBot?start")]
                 ]
             ),
